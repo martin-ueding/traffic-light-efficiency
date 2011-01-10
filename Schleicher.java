@@ -1,5 +1,3 @@
-package de.martin_ueding.physik.ampel;
-
 public class Schleicher extends Car {
 	
 	public void move () {

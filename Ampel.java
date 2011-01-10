@@ -1,5 +1,3 @@
-package de.martin_ueding.physik.ampel;
-
 import java.util.LinkedList;
 import java.util.Timer;
 

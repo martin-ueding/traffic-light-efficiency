@@ -1,5 +1,3 @@
-package de.martin_ueding.physik.ampel;
-
 public class Car {
 	
 	static final double MASS = 1000.0; // kg
@@ -9,7 +7,7 @@ public class Car {
 	
 	double energyUsed;	// energy needed for acceleration
 	double velocity;	// angular velocity
-	double phi, phi2;	// position in circle [0, 2¹)
+	double phi, phi2;	// position in circle [0, 2 pi)
 	
 	double distanceToLight;
 	double timeToLight;
@@ -24,7 +22,7 @@ public class Car {
 	
 	void move () {
 		
-		// Move the car with current velocity and apply wrap at 2¹.
+		// Move the car with current velocity and apply wrap at 2 pi.
 		double omega = 2*Math.PI* velocity / (Ampel.STRECKE);
 		phi += omega * Ampel.TIMER_PERIOD;
 		phi2 += omega * Ampel.TIMER_PERIOD;
