@@ -1,3 +1,5 @@
+// Copyright (c) 2010 Martin Ueding <dev@martin-ueding.de>
+
 public class Car {
 	
 	static final double MASS = 1000.0; // kg

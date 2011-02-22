@@ -1,3 +1,5 @@
+// Copyright (c) 2010 Martin Ueding <dev@martin-ueding.de>
+
 import java.util.TimerTask;
 
 public class CarMovingTask extends TimerTask {

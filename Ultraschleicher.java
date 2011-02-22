@@ -1,3 +1,5 @@
+// Copyright (c) 2010 Martin Ueding <dev@martin-ueding.de>
+
 public class Ultraschleicher extends Car {
 	
 	public void move () {
