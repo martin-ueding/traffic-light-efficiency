@@ -5,3 +5,6 @@ ampel.jar: Ampel.class
 
 Ampel.class: *.java
 	javac Ampel.java
+
+clean:
+	rm -rf *.class *.jar
